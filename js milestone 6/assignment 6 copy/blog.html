@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/favicon.jpg" type="image/x-icon">
+     <!-- bootstrap link -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+     <link rel="stylesheet" href="style.css">
+    <title>Frequently Asked Question</title>
+</head>
+<body class="bg-light">
+     <!-- header section start here -->
+     <header>
+             
+        <div class="container d-flex justify-content-between py-4 border-bottom border-1 border-secondary">
+            <div>
+                <a class="navbar-brand"><span class="bg-primary text-white px-2 py-1 rounded">The Daily</span> <span class="text-primary fw-bold">Mirror</span></a>
+
+            </div>
+            <div class="d-flex">
+                <ul class="d-flex nav-bar nav ">
+                    <li><a class="nav-link text-primary fw-bold" href="#">News</a></li>
+                    <li><a class="nav-link text-secondary " href="index.html">Home</a></li>
+                    <li> 
+                      <a class="navbar-brand " href="#">
+                        <img class="rounded-circle mt-2"  src="images/R (1).jpg" alt="" width="30" height="28">
+                       </a>
+                  </li> 
+                                
+                 </ul>
+
+            </div>
+
+        </div>         
+        
+    </header>
+<!-- header section end here -->
+
+
+<main>
+
+    
+
+  <!--  Answer of the Question part -->
+      <section class="container my-4">
+        <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button bg-white text-dark fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    Difference Between var, let, and const Keywords in JavaScript?
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="accordion-body textJustify">
+                    Var, let and const are three keywords for declaring variable in Javascript. There are some noticing differences among them such as, <span class="fw-bold">1. </span>var declarations are globally scoped or function scoped while let and const are block scoped. <span class="fw-bold">2. </span>var variables can be updated and re-declared within its scope; let variables can be updated but not re-declared; const variables can neither be updated nor re-declared. <span class="fw-bold">3. </span>Var can be accessed without initialization as its default value is "undefined", while both let and const can not be accessed without initialization.
+                 
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed text-dark fw-bold bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  What are the differences between Arrow function and regular function?
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                <div class="accordion-body textJustify">
+                    Arrow function and Regular function  are two common methods of declaring a function in JavaScript. The differences between them are: <span class="fw-bold">1. </span>'This' keyword is one of the most used keywords in JavaScript.In regular function, this changes according to the way that function is invoked, but Arrow functions don't have their own “this”, and they don’t redefine the value of “this ”within the function. <span class="fw-bold">2. </span>In regular JavaScript functions, arguments keywords can be used to access the passed arguments when the function is invoked while arrow functions do not have their own arguments and it uses the arguments from the outer function. <span class="fw-bold">3. </span>we can easily construct objects with regular functions, However, arrow functions can not be used as constructors.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed text-dark fw-bold bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    When to Use forEach(), map(), filter() and find() on JavaScript Arrays?
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                <div class="accordion-body textJustify">
+                    <span class="fw-bold">1. </span> .map() executes the same code on every element in an array and returns a new array with the updated elements.
+                    <span class="fw-bold">2. </span> .forEach(), is used to execute the same code on every element in an array but does not change the array and it returns undefined.
+                    <span class="fw-bold">3. </span> .filter() checks every element in an array to see if it meets a certain criteria and returns a new array with the elements that return truthy for the criteria.
+                    <span class="fw-bold">4. </span> .find() checks every element in an array to see if it meets a certain criteria and returns the first element of that array which fulfil the criteria.
+                
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingFour">
+                <button class="accordion-button collapsed text-dark fw-bold bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                What is Ternary operator in Javascript?
+                </button>
+              </h2>
+              <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                <div class="accordion-body textJustify">
+                    A ternary operator evaluates a condition and executes a block of code based on the condition. This operator evaluates the test condition. If the condition is true, <span class="fw-bold">expression1</span> is executed.  If the condition is false, <span class="fw-bold">expression1</span> is executed. In JavaScript, a ternary operator can also be used to replace certain types of if..else statements.
+                </div>
+              </div>
+            </div>
+          </div>
+
+      </section>
+
+
+
+
+
+
+
+</main>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>

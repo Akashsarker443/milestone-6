@@ -1,0 +1,37 @@
+#countries-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+}
+.country{
+    border: 2px solid salmon;
+    border-radius:  10px;
+    padding: 20px;
+}
+
+.detail-style{
+    border: 2px solid salmon;
+    border-radius:  10px;
+    padding: 20px;
+    width: 400px;
+    margin-bottom: 30px;
+}
+.image{
+    width: 250px;
+    height: 150px;
+}
+.capital{
+    color: tomato;
+}
+.btn{
+    background-color: blue;
+    padding:  8px 15px;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+    color: white;
+
+}
+.btn:hover{
+    background-color:red;
+}

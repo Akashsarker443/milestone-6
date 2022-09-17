@@ -1,0 +1,27 @@
+.fixed-height{
+    height: 340px;
+}
+
+.news-img{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 25px;
+     height: 320px;
+     display: block;
+     margin: auto;
+}
+.card{
+   min-height: 340px;
+    
+}
+.author-name{
+    margin-right: 30px;
+}
+
+.img-m{
+    width:340px;
+    height: 320px ;
+}
+.textJustify{
+    text-align: justify;
+}
